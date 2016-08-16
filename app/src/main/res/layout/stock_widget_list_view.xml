@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/widget_item_height"
+    android:weightSum="11"
+    android:paddingLeft="@dimen/widget_padding_left"
+    android:paddingRight="@dimen/widget_padding_right"
+    android:paddingEnd="@dimen/widget_padding_right"
+    android:paddingStart="@dimen/widget_padding_left">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stock_widget_list_symbol"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        style="@style/WidgetDataTextStyle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stock_widget_list_bid_price"
+        android:layout_weight="4"
+        android:gravity="center"
+        style="@style/WidgetDataTextStyle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_percent_pill_height"
+        android:id="@+id/stock_widget_list_change"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        style="@style/WidgetPercentDataTextStyle"/>
+
+</LinearLayout>

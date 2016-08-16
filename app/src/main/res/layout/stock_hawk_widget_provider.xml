@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#09C"
+    android:padding="@dimen/widget_margin"
+    android:id="@+id/stock_widget"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_header_bar_height"
+        android:text="@string/widget_heading"
+        android:background="@color/material_blue_500"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/widget_heading_text_size"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/grey_seprator"
+        android:dividerHeight="2dp"
+        android:id="@+id/stock_widget_list"
+        android:background="@color/white"
+        android:paddingTop="@dimen/widget_list_view_verticle_padding"
+        android:paddingLeft="@dimen/widget_list_view_side_padding"
+        android:paddingRight="@dimen/widget_list_view_side_padding"
+        android:paddingBottom="@dimen/widget_list_view_verticle_padding"
+        tools:listitem="@layout/stock_widget_list_view"
+        android:paddingStart="@dimen/widget_list_view_side_padding"
+        android:paddingEnd="@dimen/widget_list_view_side_padding">
+    </ListView>
+
+
+</LinearLayout>

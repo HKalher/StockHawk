@@ -1,0 +1,28 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.sam_chordas.android.stockhawk.ui.DetailFragment.DetailFragmentTwo">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/point_graph"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:layout_marginTop="@dimen/graph_view_margin_top"
+            android:layout_marginLeft="@dimen/graph_view_margin_left"
+            android:layout_marginRight="@dimen/graph_view_margin_right"
+            android:layout_marginBottom="@dimen/graph_view_margin_bottom"
+            android:layout_marginEnd="@dimen/graph_view_margin_right"
+            android:layout_marginStart="@dimen/graph_view_margin_left" />
+
+    </FrameLayout>
+</ScrollView>
+

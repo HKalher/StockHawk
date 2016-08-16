@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sam_chordas.android.stockhawk.ui.DetailActivity"
+    android:orientation="vertical">
+
+    <com.sam_chordas.android.stockhawk.SlidingTab.SlidingTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabs"
+        android:background="@color/material_blue_500">
+    </com.sam_chordas.android.stockhawk.SlidingTab.SlidingTabLayout>
+    <com.sam_chordas.android.stockhawk.SlidingTab.NonSwipeableViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/pager">
+    </com.sam_chordas.android.stockhawk.SlidingTab.NonSwipeableViewPager>
+
+</LinearLayout>
